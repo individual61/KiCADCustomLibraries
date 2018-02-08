@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10-XX_horiz
+D Omron 10-XX Switch vert
+$ENDCMP
+#
+$CMP 10-XX_vert
+D Omron 10-XX Switch vert
+$ENDCMP
+#
+$CMP SW_DIP_x01_horiz
+D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, horiz
+K dip switch
+$ENDCMP
+#
+$CMP SW_DIP_x01_vert
+D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol, vert
+K dip switch
+$ENDCMP
+#
+$CMP SW_DPDT_x2_horiz
+D Switch, dual pole double throw, single symbol, horiz
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+$CMP SW_DPDT_x2_vert
+D Switch, dual pole double throw, single symbol, horiz
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R_horiz
+D Resistor Horizontal
+K r res resistor
+$ENDCMP
+#
+$CMP R_vert
+D Resistor Vertical
+K r res resistor
+$ENDCMP
+#
+#End Doc Library

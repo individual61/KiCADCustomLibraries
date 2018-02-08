@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 01x02_Connector
+D Generic connector, single row, 01x02
+K connector
+F ~
+$ENDCMP
+#
+$CMP ISP_Header
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

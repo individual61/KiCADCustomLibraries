@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP APA102-2020
+D APA102-2020
+$ENDCMP
+#
+$CMP LED_ALT
+D LED generic, alternativ symbol, vert
+K led diode
+$ENDCMP
+#
+$CMP LED_ALT_horiz
+D LED generic, alternativ symbol, horiz
+K led diode
+$ENDCMP
+#
+$CMP LED_ALT_vert
+D LED generic, alternativ symbol, vert
+K led diode
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,90 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# CP1_Small_horiz
+#
+DEF CP1_Small_horiz C 0 10 N N 1 F N
+F0 "C" -100 450 50 H V L CNN
+F1 "CP1_Small_horiz" -100 350 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 70 -10 50 V I C CNN
+F4 "Voltage" -100 250 50 H V L CNN "Voltage Rating"
+F5 "XXXX" -100 150 50 H V L CNN "Package Size"
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A -140 0 125 286 -286 0 1 12 N -30 60 -30 -60
+P 2 0 1 12 20 60 20 -60 N
+P 2 0 1 0 50 40 70 40 N
+P 2 0 1 0 60 50 60 30 N
+X ~ 1 100 0 80 L 50 50 1 1 P
+X ~ 2 -100 0 80 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP1_Small_vert
+#
+DEF CP1_Small_vert C 0 10 N N 1 F N
+F0 "C" 100 150 50 H V L CNN
+F1 "CP1_Small_vert" 100 50 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "Voltage" 100 -50 50 H V L CNN "Voltage Rating"
+F5 "Package Size" 100 -150 50 H V L CNN "Package Size"
+F6 "MFR P/N" 100 -250 50 H V L CNN "MFR P/N"
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_Small_horizontal
+#
+DEF C_Small_horizontal C 0 10 N N 1 F N
+F0 "C" -200 400 50 H V L CNN
+F1 "C_Small_horizontal" -200 300 50 H V L CNN
+F2 "" -125 -50 50 V I L CNN
+F3 "" -200 375 50 H I L CNN
+F4 "XXXX" -200 100 50 H V L CNN "Package Size"
+F5 "Voltage" -200 200 50 H V L CNN "Voltage Rating"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 12 -120 -110 -120 10 N
+P 2 0 1 13 -80 -110 -80 10 N
+X ~ 1 -200 -50 80 R 50 50 1 1 P
+X ~ 2 0 -50 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_Small_vert
+#
+DEF C_Small_vert C 0 10 N N 1 F N
+F0 "C" 100 100 50 H V L CNN
+F1 "C_Small_vert" 100 0 50 H V L CNN
+F2 "" 0 -25 50 H I L CNN
+F3 "" 100 75 50 H I L CNN
+F4 "XXXX" 100 -200 50 H V L CNN "Package Size"
+F5 "Voltage" 100 -100 50 H V L CNN "Voltage Rating"
+F6 "MFR P/N" 100 -300 50 H V L CNN "MFR P/N"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -70 60 -70 N
+P 2 0 1 12 -60 -30 60 -30 N
+X ~ 1 0 50 80 D 50 50 1 1 P
+X ~ 2 0 -150 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

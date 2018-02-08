@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CP1_Small_horiz
+D Polarised capacitor horizontal
+K cap capacitor
+$ENDCMP
+#
+$CMP CP1_Small_vert
+D Polarised capacitor vertical
+K cap capacitor
+$ENDCMP
+#
+$CMP C_Small_horizontal
+D Unpolarized capacitor horizontal
+K capacitor cap
+$ENDCMP
+#
+$CMP C_Small_vert
+D Unpolarized capacitor vertical
+K capacitor cap
+$ENDCMP
+#
+#End Doc Library
