@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MCP73831/2
+$CMP MCP73831_2
 D LiPo charger
 $ENDCMP
 #
