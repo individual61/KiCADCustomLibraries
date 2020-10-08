@@ -11,10 +11,9 @@ F3 "" 0 -50 60 H I C CNN
 F4 "-" 0 -50 60 H I C CNN "MPN"
 F5 "XXXX" 0 -50 60 H I C CNN "Package Size"
 F6 "-" 0 -50 60 H I C CNN "Digi-Key_PN"
-F7 "U" 0 -50 60 H I C CNN "Prefix"
-F8 "-" 0 -50 60 H I C CNN "Manufacturer"
-F9 "-" 0 0 50 H V C CNN "Website"
-F10 "-" 0 0 50 H V C CNN "Description"
+F7 "-" 0 -50 60 H I C CNN "Datasheet"
+F8 "U" 0 -50 60 H I C CNN "Prefix"
+F9 "APA102-2020" 0 -50 60 H I C CNN "Value"
 DRAW
 S 250 0 -200 300 0 1 0 N
 X VCC 1 450 50 200 L 50 50 1 1 W
@@ -36,10 +35,9 @@ F3 "" 0 -50 60 H I C CNN
 F4 "-" 0 -50 60 H I C CNN "MPN"
 F5 "XXXX" 0 -50 60 H I C CNN "Package Size"
 F6 "-" 0 -50 60 H I C CNN "Digi-Key_PN"
-F7 "U" 0 -50 60 H I C CNN "Prefix"
-F8 "-" 0 -50 60 H I C CNN "Manufacturer"
-F9 "-" 0 0 50 H V C CNN "Website"
-F10 "-" 0 0 50 H V C CNN "Description"
+F7 "-" 0 -50 60 H I C CNN "Datasheet"
+F8 "U" 0 -50 60 H I C CNN "Prefix"
+F9 "APA102C" 0 -50 60 H I C CNN "Value"
 DRAW
 S 250 0 -200 300 0 1 0 N
 X DI 1 -400 250 200 R 50 50 1 1 I
@@ -61,10 +59,9 @@ F3 "" 200 100 50 H I C CNN
 F4 "XXXX" 150 -100 50 H V L CNN "Package Size"
 F5 "-" 150 -100 50 H V L CNN "MPN"
 F6 "-" 150 -100 50 H V L CNN "Digi-Key_PN"
-F7 "D" 150 -100 50 H V L CNN "Prefix"
-F8 "-" 150 -100 50 H V L CNN "Manufacturer"
-F9 "-" 0 0 50 H V C CNN "Website"
-F10 "-" 0 0 50 H V C CNN "Description"
+F7 "-" 150 -100 50 H V L CNN "Datasheet"
+F8 "D" 150 -100 50 H V L CNN "Prefix"
+F9 "LED_ALT" 150 -100 50 H V L CNN "Value"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -89,10 +86,9 @@ F3 "" -50 400 50 H I C CNN
 F4 "XXXX" -100 200 50 H V L CNN "Package Size"
 F5 "-" -100 200 50 H V L CNN "MPN"
 F6 "-" -100 200 50 H V L CNN "Digi-Key_PN"
-F7 "D" -100 200 50 H V L CNN "Prefix"
-F8 "-" -100 200 50 H V L CNN "Manufacturer"
-F9 "-" 0 0 50 H V C CNN "Website"
-F10 "-" 0 0 50 H V C CNN "Description"
+F7 "-" -100 200 50 H V L CNN "Datasheet"
+F8 "D" -100 200 50 H V L CNN "Prefix"
+F9 "LED_ALT_horiz" -100 200 50 H V L CNN "Value"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -117,11 +113,9 @@ F3 "" 200 100 50 H I C CNN
 F4 "XXXX" 150 -100 50 H V L CNN "Package Size"
 F5 "-" 150 -200 50 H V L CNN "MPN"
 F6 "-" 0 0 50 H V C CNN "Digi-Key_PN"
-F7 "D" 0 0 50 H V C CNN "Prefix"
-F8 "LED_ALT_vert" 0 0 50 H V C CNN "Value"
-F9 "-" 0 0 50 H V C CNN "Manufacturer"
-F10 "-" 0 0 50 H V C CNN "Website"
-F11 "-" 0 0 50 H V C CNN "Description"
+F7 "-" 0 0 50 H V C CNN "Datasheet"
+F8 "D" 0 0 50 H V C CNN "Prefix"
+F9 "LED_ALT_vert" 0 0 50 H V C CNN "Value"
 $FPLIST
  LED*
 $ENDFPLIST

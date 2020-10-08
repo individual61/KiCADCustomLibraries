@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.4
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # CP1_Small_horiz
@@ -10,12 +10,6 @@ F2 "" 0 0 50 V I C CNN
 F3 "" 70 -10 50 V I C CNN
 F4 "Voltage" -100 250 50 H V L CNN "Voltage Rating"
 F5 "XXXX" -100 150 50 H V L CNN "Package Size"
-F6 "MFR P/N" -100 150 50 H V L CNN "MPN"
-F7 "-" -100 150 50 H V L CNN "Digi-Key_PN"
-F8 "C" -100 150 50 H V L CNN "Prefix"
-F9 "-" -100 150 50 H V L CNN "Website"
-F10 "-" -100 150 50 H V L CNN "Description"
-F11 "-" -100 150 50 H V L CNN "Manufacturer"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -37,14 +31,8 @@ F1 "CP1_Small_vert" 100 50 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 10 70 50 H I C CNN
 F4 "Voltage" 100 -50 50 H V L CNN "Voltage Rating"
-F5 "XXXX" 100 -150 50 H V L CNN "Package Size"
+F5 "Package Size" 100 -150 50 H V L CNN "Package Size"
 F6 "MFR P/N" 100 -250 50 H V L CNN "MFR P/N"
-F7 "MFR P/N" 100 -250 50 H V L CNN "MPN"
-F8 "-" 100 -250 50 H V L CNN "Digi-Key_PN"
-F9 "C" 100 -250 50 H V L CNN "Prefix"
-F10 "-" 100 -250 50 H V L CNN "Website"
-F11 "-" 100 -250 50 H V L CNN "Description"
-F12 "-" 100 -250 50 H V L CNN "Manufacturer"
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -67,12 +55,6 @@ F2 "" -125 -50 50 V I L CNN
 F3 "" -200 375 50 H I L CNN
 F4 "XXXX" -200 100 50 H V L CNN "Package Size"
 F5 "Voltage" -200 200 50 H V L CNN "Voltage Rating"
-F6 "MFR P/N" -200 200 50 H V L CNN "MPN"
-F7 "-" -200 200 50 H V L CNN "Digi-Key_PN"
-F8 "C" -200 200 50 H V L CNN "Prefix"
-F9 "-" -200 200 50 H V L CNN "Website"
-F10 "-" -200 200 50 H V L CNN "Description"
-F11 "-" -200 200 50 H V L CNN "Manufacturer"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -94,13 +76,6 @@ F3 "" 100 75 50 H I L CNN
 F4 "XXXX" 100 -200 50 H V L CNN "Package Size"
 F5 "Voltage" 100 -100 50 H V L CNN "Voltage Rating"
 F6 "MFR P/N" 100 -300 50 H V L CNN "MFR P/N"
-F7 "MFR P/N" 100 -300 50 H V L CNN "MPN"
-F8 "-" 100 -300 50 H V L CNN "Digi-Key_PN"
-F9 "-" 100 -300 50 H V L CNN "Datasheet"
-F10 "C" 100 -300 50 H V L CNN "Prefix"
-F11 "-" 100 -300 50 H V L CNN "Website"
-F12 "-" 100 -300 50 H V L CNN "Description"
-F13 "-" 100 -300 50 H V L CNN "Manufacturer"
 $FPLIST
  C_*
 $ENDFPLIST

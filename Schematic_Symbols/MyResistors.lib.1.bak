@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.4
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # R_horiz
@@ -9,12 +9,6 @@ F1 "R_horiz" -100 225 50 H V L CNN
 F2 "" 50 105 50 H I C CNN
 F3 "" -200 350 50 V I C CNN
 F4 "XXXX" -100 125 50 H V L CNN "Package Size"
-F5 "MFR P/N" -100 125 50 H V L CNN "MPN"
-F6 "-" -100 125 50 H V L CNN "Digi-Key_PN"
-F7 "R" -100 125 50 H V L CNN "Prefix"
-F8 "-" -100 125 50 H V L CNN "Website"
-F9 "-" -100 125 50 H V L CNN "Description"
-F10 "-" -100 125 50 H V L CNN "Manufacturer"
 $FPLIST
  R_*
  R_*
@@ -35,12 +29,6 @@ F2 "" 55 -50 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "XXXX" 100 -100 50 H V L CNN "Package Size"
 F5 "MFR P/N" 300 300 50 H V C CNN "MFR P/N"
-F6 "MFR P/N" 300 300 50 H V C CNN "MPN"
-F7 "-" 300 300 50 H V C CNN "Digi-Key_PN"
-F8 "R" 300 300 50 H V C CNN "Prefix"
-F9 "-" 300 300 50 H V C CNN "Website"
-F10 "-" 300 300 50 H V C CNN "Description"
-F11 "-" 300 300 50 H V C CNN "Manufacturer"
 $FPLIST
  R_*
  R_*
