@@ -34,13 +34,12 @@ F1 "R_vert" 100 0 50 H V L CNN
 F2 "" 55 -50 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "XXXX" 100 -100 50 H V L CNN "Package Size"
-F5 "MFR P/N" 300 300 50 H V C CNN "MFR P/N"
-F6 "MFR P/N" 300 300 50 H V C CNN "MPN"
-F7 "-" 300 300 50 H V C CNN "Digi-Key_PN"
-F8 "R" 300 300 50 H V C CNN "Prefix"
-F9 "-" 300 300 50 H V C CNN "Website"
-F10 "-" 300 300 50 H V C CNN "Description"
-F11 "-" 300 300 50 H V C CNN "Manufacturer"
+F5 "MFR P/N" 300 300 50 H V C CNN "MPN"
+F6 "-" 300 300 50 H I C CNN "Digi-Key_PN"
+F7 "R" 300 300 50 H I C CNN "Prefix"
+F8 "-" 300 300 50 H I C CNN "Website"
+F9 "-" 300 300 50 H I C CNN "Description"
+F10 "-" 300 300 50 H I C CNN "Manufacturer"
 $FPLIST
  R_*
  R_*

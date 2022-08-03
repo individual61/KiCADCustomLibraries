@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 3.3V_Reg
+D IC REG LINEAR 3.3V 150MA SOT23-5
+K 296-18476-1-ND
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flp2985
+$ENDCMP
+#
+$CMP ATMEGA328P-AU
+D IC MCU 8BIT 32KB FLASH 32TQFP
+K ATMEGA328P-AU-ND AVR® ATmega
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326
+$ENDCMP
+#
+$CMP MCP73831T-2ATI_OT
+D IC CONTROLLR LI-ION 4.2V SOT23-5
+K MCP73831T-2ATI/OTCT-ND
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
 $CMP MCP73831_2
 D LiPo charger
 $ENDCMP
