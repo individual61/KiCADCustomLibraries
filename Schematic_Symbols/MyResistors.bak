@@ -1,45 +1,168 @@
-EESchema-LIBRARY Version 2.3
-#encoding utf-8
-#
-# R_horiz
-#
-DEF R_horiz R 0 0 N Y 1 F N
-F0 "R" -100 325 50 H V L CNN
-F1 "R_horiz" -100 225 50 H V L CNN
-F2 "" 50 105 50 H I C CNN
-F3 "" -200 350 50 V I C CNN
-F4 "XXXX" -100 125 50 H V L CNN "Package Size"
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-P 10 0 1 12 -100 0 -75 0 -50 50 -25 -50 0 50 25 -50 50 50 75 -50 100 0 125 0 N
-X ~ 1 -150 0 50 R 50 50 1 1 P
-X ~ 2 175 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_vert
-#
-DEF R_vert R 0 0 N Y 1 F N
-F0 "R" 100 100 50 H V L CNN
-F1 "R_vert" 100 0 50 H V L CNN
-F2 "" 55 -50 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "XXXX" 100 -100 50 H V L CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-P 2 0 1 12 0 -150 0 -100 N
-P 2 0 1 12 0 -100 0 -125 N
-P 2 0 1 12 0 75 0 100 N
-P 8 0 1 12 0 75 50 50 -50 25 50 0 -50 -25 50 -50 -50 -75 0 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -200 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-#End Library
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "R_horiz" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (at -2.54 8.255 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R_horiz" (at -2.54 5.715 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 1.27 2.667 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at -5.08 8.89 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package Size" "XXXX" (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MFR P/N" (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Digi-Key_PN" "-" (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Prefix" "R" (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Website" "-" (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Description" "-" (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Manufacturer" "-" (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "ki_keywords" "r res resistor" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Resistor Horizontal" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "R_* R_*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "R_horiz_0_1"
+      (polyline
+        (pts
+          (xy 1.3716 -0.0254)
+          (xy 1.8542 -0.0254)
+          (xy 2.159 1.2446)
+          (xy 2.794 -1.2954)
+          (xy 3.429 1.2446)
+          (xy 4.064 -1.2954)
+          (xy 4.699 1.2446)
+          (xy 5.334 -1.2954)
+          (xy 5.6388 -0.0254)
+          (xy 6.2992 -0.0254)
+        )
+        (stroke (width 0.3048) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "R_horiz_1_1"
+      (pin passive line (at 0 0 0) (length 1.27)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 7.62 0 180) (length 1.27)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "R_vert" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "R" (at 2.54 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R_vert" (at 2.54 0 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 1.397 -1.27 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package Size" "XXXX" (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "MPN" "MFR P/N" (at 7.62 7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Digi-Key_PN" "-" (at 7.62 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Prefix" "R" (at 7.62 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Website" "-" (at 7.62 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-" (at 7.62 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "-" (at 7.62 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "r res resistor" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Resistor Vertical" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "R_* R_*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "R_vert_0_1"
+      (polyline
+        (pts
+          (xy 0 -3.81)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0.3048) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 -3.175)
+        )
+        (stroke (width 0.3048) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.905)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.3048) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.905)
+          (xy 1.27 1.27)
+          (xy -1.27 0.635)
+          (xy 1.27 0)
+          (xy -1.27 -0.635)
+          (xy 1.27 -1.27)
+          (xy -1.27 -1.905)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0.3048) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "R_vert_1_1"
+      (pin passive line (at 0 3.81 270) (length 1.27)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 1.27)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
